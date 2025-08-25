@@ -9,3 +9,4 @@
 --- 
 
 * [Aula 01](./Aula01_18AGO/) (18/08) - Apresentação da UC
+* [Aula 02](./Aula02_25AGO/) (25/08) - Usando o rasterLab
