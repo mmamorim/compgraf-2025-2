@@ -13,5 +13,5 @@
     * [Brilho](./rasterLab/filtros/brilho.js)
     * [Colorizar](./rasterLab/filtros/colorizar.js)
     * [Monocromático](./rasterLab/filtros/monocromatico.js)
-    * [Sépia](./rasterLab/filtros/sepia.js) [Sobre](./sepia.pdf) 
+    * [Sépia](./rasterLab/filtros/sepia.js) mais informações sobre [Sépia](./sepia.pdf) 
 
