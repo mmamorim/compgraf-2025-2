@@ -14,4 +14,4 @@
     * [Colorizar](./rasterLab/filtros/colorizar.js)
     * [Monocromático](./rasterLab/filtros/monocromatico.js)
     * [Sépia](./rasterLab/filtros/sepia.js) mais informações sobre [Sépia](./sepia.pdf) 
-
+* [Aula 03](./Aula03_01SET/) (01/09) - Transformações Geométricas
