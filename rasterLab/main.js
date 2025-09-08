@@ -9,6 +9,9 @@ import flipH from "./filtros/flipH.js";
 import flipV from "./filtros/flipV.js";
 import escala from "./filtros/escala.js";
 import rotaciona from "./filtros/rotaciona.js";
+import corte from "./filtros/corte.js";
+import histograma from "./filtros/histograma.js";
+import histogramaNorm from "./filtros/histogramaNorm.js"
 
 console.log('imageLab', imageLab);
 imageLab.setLoadButtonID('btnLoad')
@@ -22,5 +25,8 @@ createFilters(imageLab, [
     { label: 'FlipV', method: flipV },
     { label: 'Escala', method: escala },
     { label: 'Rotaciona', method: rotaciona },
+    { label: 'Corte', method: corte },
+    { label: 'Histograma', method: histograma },
+    { label: 'histogramaNorm', method: histogramaNorm },
 ])
 
