@@ -12,6 +12,7 @@ import rotaciona from "./filtros/rotaciona.js";
 import corte from "./filtros/corte.js";
 import histograma from "./filtros/histograma.js";
 import histogramaNorm from "./filtros/histogramaNorm.js"
+import estenografia from "./filtros/estenografia.js";
 
 console.log('imageLab', imageLab);
 imageLab.setLoadButtonID('btnLoad')
@@ -28,5 +29,6 @@ createFilters(imageLab, [
     { label: 'Corte', method: corte },
     { label: 'Histograma', method: histograma },
     { label: 'histogramaNorm', method: histogramaNorm },
+    { label: 'estenografia', method: estenografia },
 ])
 
