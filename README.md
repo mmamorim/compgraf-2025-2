@@ -16,3 +16,4 @@
     * [Sépia](./rasterLab/filtros/sepia.js) mais informações sobre [Sépia](./sepia.pdf) 
 * [Aula 03](./Aula03_01SET/) (01/09) - Transformações Geométricas
 * [Aula 04](./Aula04_08SET/) (08/09) - Histograma e Afins
+* [Aula 05](./Aula05_15SET/) (15/09) - Filtro Gaussiano
