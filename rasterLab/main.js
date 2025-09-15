@@ -13,6 +13,9 @@ import corte from "./filtros/corte.js";
 import histograma from "./filtros/histograma.js";
 import histogramaNorm from "./filtros/histogramaNorm.js"
 import estenografia from "./filtros/estenografia.js";
+import blur from "./filtros/blur.js";
+import bordaH from "./filtros/bordaH.js";
+import bordaColor from "./filtros/bordaColor.js";
 
 console.log('imageLab', imageLab);
 imageLab.setLoadButtonID('btnLoad')
@@ -30,5 +33,9 @@ createFilters(imageLab, [
     { label: 'Histograma', method: histograma },
     { label: 'histogramaNorm', method: histogramaNorm },
     { label: 'estenografia', method: estenografia },
+    { label: 'blur', method: blur },
+    { label: 'bordaH', method: bordaH },
+    { label: 'bordaColor', method: bordaColor },
+    
 ])
 
