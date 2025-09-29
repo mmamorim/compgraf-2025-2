@@ -16,7 +16,7 @@ import blur from "./filtros/blur.js";
 import bordaH from "./filtros/bordaH.js";
 import bordaColor from "./filtros/bordaColor.js";
 import estegCrypt from "./filtros/estegCrypt.js";
-import estegDecrypt from "./filtros/estegCrypt.js";
+import estegDecrypt from "./filtros/estegDecrypt.js";
 
 console.log('imageLab', imageLab);
 imageLab.setLoadButtonID('btnLoad')
@@ -37,7 +37,7 @@ createFilters(imageLab, [
     { label: 'bordaH', method: bordaH },
     { label: 'bordaColor', method: bordaColor },
     { label: 'estegCrypt', method: estegCrypt },
-    { label: 'estegDecrypt', method: estegCrypt },
+    { label: 'estegDecrypt', method: estegDecrypt },
     
 ])
 
