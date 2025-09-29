@@ -24,6 +24,23 @@ const imageLab = {
         } else {
             console.log('image01 not found');
         }
+        this.image1.saveToFile = (filename) => {
+            imageLab.saveToFile("canvas_source", filename)
+        }
+        this.image2.saveToFile = (filename) => {
+            imageLab.saveToFile("canvas_dest", filename)
+        }
+    },
+
+    saveToFile(canvasID, fileName) {
+        let canvas = document.getElementById(canvasID);
+        const dataURL = canvas.toDataURL('image/png'); // Get data URL of the canvas as PNG
+        const link = document.createElement('a'); // Create a temporary anchor element
+        link.href = dataURL; // Set the href to the data URL
+        link.download = fileName; // Set the download filename
+        document.body.appendChild(link); // Append the link to the document body (optional)
+        link.click(); // Programmatically click the link to trigger download
+        document.body.removeChild(link); // Remove the link from the document body
     },
 
     async loadImageFromBase64(base64) {
@@ -69,6 +86,7 @@ const imageLab = {
             //console.log('files', files);
             const base64 = await imageLab.toBase64(files[0]);
             imageLab.loadImageFromBase64(base64)
+            window.location.reload()
         })
     },
 
@@ -97,7 +115,7 @@ const imageLab = {
                 image.ctx.putImageData(imageData, 0, 0);
             },
             newImage(width, height) {
-                console.log('image.canvas',image.canvas);
+                console.log('image.canvas', image.canvas);
                 image.canvas = document.getElementById("canvas_dest");
                 image.canvas.width = width
                 image.canvas.height = height
