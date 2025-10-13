@@ -19,3 +19,5 @@
 * [Aula 05](./Aula05_15SET/) (15/09) - Filtro Gaussiano e Detecção de Bordas
 * [Aula 06](./Aula06_29SET/) (29/09) - Esteganografia
 * [Aula 07](./Aula07_06OUT/) (06/10) - Imagens Vetoriais
+* [Aula 08](./Aula08_13OUT/) (13/10) - Lançamento da A3
+* [Aula 09](./Aula09_20OUT/) (20/10) - A1 - O que irá cair???
