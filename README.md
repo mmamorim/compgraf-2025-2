@@ -24,3 +24,5 @@
 
 * FORMULÁRIO ENTREGA A3 - Até 01/12
     [LINK P/ FORMULÁRIO](https://forms.gle/bg4qHsuM4zrRcQRLA)
+
+* [Guia para criar Módulo NPM](https://github.com/mmamorim/myModuleSample) (17/11) - Ajuda para A3
